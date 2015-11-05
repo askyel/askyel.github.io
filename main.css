@@ -22,6 +22,12 @@ h1 {
 	background-color: orange;
 }
 
+.button a {
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+}
+
 .button a:hover {
 	background-color: grey;
 }
