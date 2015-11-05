@@ -8,20 +8,13 @@ body {
 h1 {
 	background-color: green;
 	text-align: center;
-	margin: 0px auto 0px;
-	padding-top: 100px;
+	margin: 50px auto 50px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	font-size: 70px;
 }
 
-.buttons {
-	margin: 50px 0px 0px;
-	background-color: red;
-}
-
-.buttons a {
-	float: left;
-	clear: both;
+.button {
 	width: 300px;
 	margin: 15px auto 0px;
 	padding: 15px 10px 15px;
@@ -29,10 +22,11 @@ h1 {
 	background-color: orange;
 }
 
-.buttons a:hover {
+.button a:hover {
 	background-color: grey;
 }
 
-.buttons img {
+.button img {
 	width: 50px;
+	margin: 0px 10px 0px;
 }
