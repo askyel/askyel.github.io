@@ -19,13 +19,10 @@ h1 {
 	margin: 15px auto 0px;
 	padding: 15px 10px 15px;
 	font-size: 20px;
-	height: auto;
-	background-color: red;
+	background-color: blue;
 }
 
 .button a {
-	vertical-align: middle;
-	float: left;
 	text-decoration: none;
 	color: white;
 }
@@ -35,8 +32,6 @@ h1 {
 }
 
 .button img {
-	float: left;
-	clear: both;
 	width: 50px;
 	margin: 0px 10px 0px;
 }
