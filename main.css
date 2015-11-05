@@ -12,3 +12,9 @@ h1 {
 	padding-bottom: 50px;
 	font-size: 70px;
 }
+
+table {
+	border: none;
+	margin: 0px 50px 0px;
+	padding: 30px;
+}
