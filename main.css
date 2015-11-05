@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	font-family: "Quicksand", Arial, sans-serif;
+	padding: 0px 50px 0px;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
 table {
 	background-color: red;
 	border: none;
-	margin: 0px 50px 0px;
 	width: 100%;
 }
 
