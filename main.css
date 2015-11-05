@@ -24,6 +24,7 @@ h1 {
 
 .button a {
 	vertical-align: middle;
+	float: left;
 	text-decoration: none;
 	color: white;
 }
