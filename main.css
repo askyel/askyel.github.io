@@ -14,16 +14,12 @@ h1 {
 	font-size: 70px;
 }
 
-table {
+#buttons {
+	margin: 50px auto 0px;
 	background-color: red;
-	border: none;
-	width: 100%;
-}
-
-td {
-	padding: 30px;
+	width: 300px;
 }
 
 img {
-	width: 50px;
+	width: 70px;
 }
