@@ -17,9 +17,10 @@ h1 {
 #buttons {
 	margin: 50px auto 0px;
 	background-color: red;
-	width: 300px;
+	width: 280px;
 }
 
 img {
-	width: 70px;
+	width: 50px;
+	padding: 0px 10px 0px;
 }
