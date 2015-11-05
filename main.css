@@ -22,11 +22,9 @@ h1 {
 .buttons a {
 	float: left;
 	clear: both;
-	width: 500px;
+	width: 300px;
 	margin: 10px auto 0px;
 	padding: 20px 10px 20px;
-	text-align: center;
-	vertical-align: middle;
 	background-color: orange;
 }
 
