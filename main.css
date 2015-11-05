@@ -16,5 +16,12 @@ h1 {
 table {
 	border: none;
 	margin: 0px 50px 0px;
+}
+
+td {
 	padding: 30px;
+}
+
+img {
+	width: 100px;
 }
