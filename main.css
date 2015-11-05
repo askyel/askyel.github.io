@@ -20,6 +20,8 @@ h1 {
 }
 
 .buttons a {
+	float: left;
+	clear: both;
 	width: 100px;
 	margin: 10px auto 0px;
 	background-color: orange;
