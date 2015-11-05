@@ -25,6 +25,8 @@ h1 {
 	width: 500px;
 	margin: 10px auto 0px;
 	padding: 20px 10px 20px;
+	text-align: center;
+	vertical-align: middle;
 	background-color: orange;
 }
 
