@@ -14,13 +14,18 @@ h1 {
 	font-size: 70px;
 }
 
-#buttons {
+.buttons {
 	margin: 50px auto 0px;
 	background-color: red;
-	width: 280px;
 }
 
-img {
+.buttons a {
+	width: 100px;
+	margin: 10px auto 0px;
+	background-color: orange;
+}
+
+.buttons img {
 	width: 50px;
 	padding: 0px 10px 0px;
 }
