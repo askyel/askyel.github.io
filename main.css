@@ -14,6 +14,7 @@ h1 {
 }
 
 table {
+	background-color: red;
 	border: none;
 	margin: 0px 50px 0px;
 	width: 100%;
