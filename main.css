@@ -25,6 +25,10 @@ h1 {
 	background-color: orange;
 }
 
+.buttons a:hover {
+	background-color: grey;
+}
+
 .buttons img {
 	width: 50px;
 	padding: 0px 10px 0px;
