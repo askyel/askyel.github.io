@@ -41,5 +41,5 @@ h1 {
 }
 
 .buttons img:hover {
-	background-color: #C6AEB0;
+	border-bottom: 2px solid white;
 }
