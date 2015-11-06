@@ -17,7 +17,7 @@ body {
 
 h1 {
 	text-align: center;
-	margin: 0px auto 30px;
+	margin: 50px auto 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-size: 70px;
@@ -31,5 +31,5 @@ h1 {
 
 .buttons img {
 	width: 50px;
-	margin: 0px 5px 0px;
+	margin: 0px 10px 0px;
 }
