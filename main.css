@@ -1,13 +1,23 @@
 body {
-	background-color: black;
 	color: white;
 	font-family: "Quicksand", Arial, sans-serif;
 	padding: 0px 50px 0px;
+	
+	background: url("images/nyc4.jpg");
+	background-size: cover;
+	background-image:
+	linear-gradient(
+		rgba(0, 0, 0, 0.25),
+		rgba(0, 0, 0, 0.25)
+	),
+	url("Images/nyc4.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
 }
 
 h1 {
 	text-align: center;
-	margin: 0px auto 50px;
+	margin: 0px auto 30px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-size: 70px;
