@@ -23,25 +23,13 @@ h1 {
 	font-size: 70px;
 }
 
-.button {
+.buttons {
 	width: 350px;
 	margin: 0px auto 0px;
-	padding: 15px 15px 15px;
-	font-size: 20px;
-}
-
-.button a {
-	position: relative;
-	top: -15px;
-	text-decoration: none;
-	color: white;
-}
-
-.button a:hover {
-	background-color: grey;
+	padding: 0px;
 }
 
 .button img {
 	width: 50px;
-	margin: 0px 10px 0px;
+	margin: 0px 5px 0px;
 }
