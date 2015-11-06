@@ -30,6 +30,11 @@ h1 {
 	padding: 0px;
 }
 
+.buttons a {
+	padding: 0px;
+	margin: 0px;
+}
+
 .buttons img {
 	width: 50px;
 	margin: 0px 10px 0px;
