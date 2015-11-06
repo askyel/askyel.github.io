@@ -17,14 +17,14 @@ body {
 
 h1 {
 	text-align: center;
-	margin: 50px auto 100px;
+	margin: 100px auto 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-size: 70px;
 }
 
 .buttons {
-	width: 370px;
+	width: 365px;
 	margin: 0px auto 0px;
 	padding: 0px;
 }
