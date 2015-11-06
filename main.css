@@ -23,6 +23,11 @@ h1 {
 	font-size: 70px;
 }
 
+p {
+	text-align: center;
+	font-size: 20px;
+}
+
 .buttons {
 	width: 370px;
 	margin: 0px auto 0px;
