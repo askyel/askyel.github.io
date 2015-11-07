@@ -1,17 +1,24 @@
 body {
 	color: white;
 	font-family: "Quicksand", Arial, sans-serif;
-	margin: 0px;
-	padding: 0px;
+	padding: 0px 50px 0px;
 	
+	background: url("images/nyc4.jpg");
+	background-size: cover;
+	background-image:
+	linear-gradient(
+		rgba(0, 0, 0, 0.25),
+		rgba(0, 0, 0, 0.25)
+	),
+	url("images/nyc4.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
 }
 
 #nav {
-	margin: 0px;
-	padding: 5px 100px 5px;
+	padding: 5px 50px 5px;
 	font-size: 16px;
 	text-transform: uppercase;
-	background-color: #AAAAAA;
 }
 
 #nav ul {
@@ -28,11 +35,6 @@ body {
 
 #nav li a {
 	color: #CCCCCC;
-	text-decoration: none;
-}
-
-#nav .active a {
-	color: white;
 	text-decoration: none;
 }
 
@@ -53,6 +55,32 @@ body {
 
 #nav .right img {
 	height: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin: 70px auto 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 75px;
+	font-family: "Special Elite";
+}
+
+.buttons {
+	width: 370px;
+	margin: 130px auto 0px;
+	padding: 0px;
+}
+
+.buttons a {
+	padding: 0px;
+	margin: 0px;
+}
+
+.buttons img {
+	width: 50px;
+	margin: 0px;
+	padding: 10px 10px 10px;
 }
 
 #home-w img:hover {
@@ -85,12 +113,4 @@ body {
 }
 #spotify-g img:hover {
 	content: url('images/Spotify_Logo_white.png');
-}
-
-h1 {
-	text-align: center;
-	margin: 30px auto 30px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 40px;
 }
