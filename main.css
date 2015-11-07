@@ -48,4 +48,5 @@ p {
 
 .buttons img:hover {
 	background-color: rgba(0, 0, 0, 0.35);
+	content: url('images/House_Logo_gray.png');
 }
