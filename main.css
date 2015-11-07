@@ -15,23 +15,60 @@ body {
 	background-attachment: fixed;
 }
 
-h1 {
-	text-align: center;
-	margin: 100px auto 30px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 70px;
+#nav {
+	padding: 5px 50px 5px;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
-p {
-	margin: 0px auto 0px;
+#nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav li {
+	display: inline;
+	padding: 0px 10px 0px;
+	vertical-align: middle;
+}
+
+#nav li a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#nav img {
+	height: 16px;
+}
+
+.right {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+#nav .right img {
+	height: 20px;
+}
+
+h1 {
 	text-align: center;
-	font-size: 15px;
+	margin: 70px auto 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 75px;
+	font-family: "Special Elite";
 }
 
 .buttons {
 	width: 370px;
-	margin: 70px auto 0px;
+	margin: 130px auto 0px;
 	padding: 0px;
 }
 
@@ -46,18 +83,34 @@ p {
 	padding: 10px 10px 10px;
 }
 
-.buttons #home img:hover {
+#home-w img:hover {
 	content: url('images/House_Logo_gray.png');
 }
-.buttons #mail img:hover {
+#mail-w img:hover {
 	content: url('images/Mail_Logo_gray.png');
 }
-.buttons #github img:hover {
+#github-w img:hover {
 	content: url('images/Github_Logo_gray.png');
 }
-.buttons #link img:hover {
+#link-w img:hover {
 	content: url('images/Linkedin_Logo_gray.png');
 }
-.buttons #spotify img:hover {
+#spotify-w img:hover {
 	content: url('images/Spotify_Logo_gray.png');
+}
+
+#home-g img:hover {
+	content: url('images/House_Logo_white.png');
+}
+#mail-g img:hover {
+	content: url('images/Mail_Logo_white.png');
+}
+#github-g img:hover {
+	content: url('images/Github_Logo_white.png');
+}
+#link-g img:hover {
+	content: url('images/Linkedin_Logo_white.png');
+}
+#spotify-g img:hover {
+	content: url('images/Spotify_Logo_white.png');
 }
