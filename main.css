@@ -46,7 +46,18 @@ p {
 	padding: 10px 10px 10px;
 }
 
-.buttons img:hover {
-	background-color: rgba(0, 0, 0, 0.35);
+.buttons #home img:hover {
 	content: url('images/House_Logo_gray.png');
+}
+.buttons #mail img:hover {
+	content: url('images/Mail_Logo_gray.png');
+}
+.buttons #github img:hover {
+	content: url('images/Github_Logo_gray.png');
+}
+.buttons #link img:hover {
+	content: url('images/Linkedin_Logo_gray.png');
+}
+.buttons #spotify img:hover {
+	content: url('images/Spotify_Logo_gray.png');
 }
