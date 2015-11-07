@@ -1,5 +1,4 @@
 body {
-	color: white;
 	font-family: "Quicksand", Arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -93,4 +92,5 @@ h1 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-size: 40px;
+	color: #444444; /*#CCABAB; #444444;*/
 }
