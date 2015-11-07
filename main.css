@@ -5,6 +5,18 @@ body {
 	
 }
 
+.left {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.right {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
 #nav {
 	margin: 0px;
 	padding: 5px 100px 5px;
@@ -44,12 +56,6 @@ body {
 	height: 16px;
 }
 
-.right {
-	margin: 0px;
-	padding: 0px;
-	float: right;
-}
-
 #nav .right img {
 	height: 20px;
 }
@@ -86,11 +92,36 @@ body {
 	content: url('images/Spotify_Logo_white.png');
 }
 
+#content {
+	padding: 0px 15% 0px;
+}
+
 h1 {
 	text-align: center;
+	text-decoration: underline;
 	margin: 30px auto 30px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	font-size: 40px;
 	color: #444444; /*#CCABAB; #444444;*/
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+#content .left, #content .right {
+	width: 50%;
+}
+
+.left img {
+	width: 70%;
+	margin: 0px 15% 0px;
+}
+
+.right p {
+	width: 70%;
+	margin: 0px 15% 0px;
 }
