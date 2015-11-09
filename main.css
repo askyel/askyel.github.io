@@ -1,4 +1,4 @@
-body {
+html, body {
 	font-family: "Quicksand", Arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -19,7 +19,7 @@ body {
 
 #nav {
 	margin: 0px;
-	padding: 5px 100px 5px;
+	padding: 8px 100px 9px;
 	font-size: 16px;
 	text-transform: uppercase;
 	background-color: #AAAAAA;
@@ -33,13 +33,17 @@ body {
 
 #nav li {
 	display: inline;
-	padding: 0px 10px 0px;
+	padding: 10px 10px 10px;
 	vertical-align: middle;
 }
 
 #nav li a {
 	color: #CCCCCC;
 	text-decoration: none;
+}
+
+.active {
+	background-color: #444444;
 }
 
 #nav .active a {
@@ -98,7 +102,6 @@ body {
 
 h1 {
 	text-align: center;
-	text-decoration: underline;
 	margin: 30px auto 30px;
 	padding-top: 50px;
 	padding-bottom: 20px;
@@ -106,10 +109,18 @@ h1 {
 	color: #444444; /*#CCABAB; #444444;*/
 }
 
+h2 {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	font-size: 25px;
+	color: #CCABAB;
+	border-bottom: 3px solid #CCCCCC;
+}
+
 p {
 	margin: 0px;
-	padding: 0px;
-	font-size: 20px;
+	padding: 0px 0px 20px;
+	font-size: 18px;
 }
 
 #content .left, #content .right {
@@ -121,7 +132,80 @@ p {
 	margin: 0px 15% 0px;
 }
 
-.right p {
+.right p, h2 {
 	width: 70%;
 	margin: 0px 15% 0px;
+}
+
+.section {
+	width: 70%;
+	margin: 0px 15% 10px;
+	padding-left: 15px;
+	overflow: hidden;
+	float: left;
+	background-color: #AAAAAA;
+	border-top: 3px solid #CCABAB;
+}
+
+.section h3 {
+	width: 25%;
+	float: left;
+	margin: 0px;
+	padding: 10px 0px 0px;
+	color: white;
+	font-size: 20px;
+}
+
+.section .info {
+	width: 75%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	background-color: #444444; /* "border" */
+}
+
+.section .info .text {
+	width: 98%;
+	float: right;
+	margin: 0px;
+	padding: 0px 0px 10px;
+	background-color: white;
+}
+
+.section .info .text h4 {
+	margin: 10px 0px 0px 20px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+.section .info .text h5 {
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+.section .info .text ul {
+	margin: 5px 0px 0px 30px;
+	padding: 0px;
+	font-size: 15px;
+}
+
+.section .info .text li {
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	font-size: 15px;
+}
+
+.section .info a {
+	text-decoration: none;
+	color: #CCABAB;
+}
+
+.section .info a:hover {
+	color: #AAAAAA;
+}
+
+#project img {
+	width: 70%;
+	padding: 10px 15% 10px;
 }
