@@ -144,7 +144,7 @@ p {
 	overflow: hidden;
 	float: left;
 	background-color: #AAAAAA;
-	border-top: 3px solid #CCABAB;
+	/*border-top: 3px solid #CCABAB;*/
 }
 
 .section h3 {
@@ -184,6 +184,29 @@ p {
 	font-size: 12px;
 }
 
+.section .info .text .skill {
+	margin: 10px 0px 0px 20px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+.section .info .text .bar {
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	float: left;
+	clear: both;
+}
+
+.section .info .text p {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.section .info .text span {
+	color: #AAAAAA;
+}
+
 .section .info .text ul {
 	margin: 5px 0px 0px 30px;
 	padding: 0px;
@@ -208,4 +231,55 @@ p {
 #project img {
 	width: 70%;
 	padding: 10px 15% 10px;
+}
+
+.panel {
+	position: relative;
+	width: 80%;
+	margin: 0px 10% 20px;
+	border: 10px solid #CCCCCC;
+}
+
+.panel img {
+	width: 100%;
+}
+
+.panel span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.panel h2 {	
+	border: none;
+	color: rgba(0,0,0, 0); /*transparent*/
+	text-align: center;
+	width: 100%;
+	margin: 100px 0px 0px;
+	padding: 0px;
+}
+
+.panel p {
+	border: none;
+	color: rgba(0,0,0, 0); /*transparent*/
+	text-align: center;
+	width: 100%;
+	margin: 20px 0px 0px;
+	padding: 0px;
+}
+
+.panel span:hover {
+	color: white;
+	background-color: rgba(0,0,0, 0.7);
+}
+
+.panel span:hover h2 {
+	color: white;
+}
+
+.panel span:hover p {
+	color: white;
 }
