@@ -1,8 +1,15 @@
+/*
+dark gray: #444444
+medium gray: #AAAAAA
+light gray: #CCCCCC
+pink: #CCABAB
+*/
+
 html, body {
 	font-family: "Quicksand", Arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	
+	font-weight: normal;
 }
 
 .left {
@@ -123,6 +130,16 @@ p {
 	font-size: 18px;
 }
 
+a {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #CCABAB;
+}
+
+a:hover {
+	color: #AAAAAA;
+}
+
 #content .left, #content .right {
 	width: 50%;
 }
@@ -137,6 +154,12 @@ p {
 	margin: 0px 15% 0px;
 }
 
+.right #links {
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+
 .section {
 	width: 70%;
 	margin: 0px 15% 10px;
@@ -145,6 +168,10 @@ p {
 	float: left;
 	background-color: #AAAAAA;
 	/*border-top: 3px solid #CCABAB;*/
+}
+
+.section:hover {
+	background-color: #CCABAB;
 }
 
 .section h3 {
@@ -217,15 +244,6 @@ p {
 	margin: 0px 0px 0px 20px;
 	padding: 0px;
 	font-size: 15px;
-}
-
-.section .info a {
-	text-decoration: none;
-	color: #CCABAB;
-}
-
-.section .info a:hover {
-	color: #AAAAAA;
 }
 
 #project img {
