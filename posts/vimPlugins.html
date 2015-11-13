@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Ariel Skye Levy</title>
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+	
+	<div id="nav">
+		<ul>
+			<li><a id="home-g" href="../index.html"><img src="../images/House_Logo_gray.png" alt="HOME"></a></li>
+			<li><a href="../about.html">About</a></li>
+			<li><a href="../resume.html">Resume</a></li>	
+			<li><a href="../projects.html">Projects</a></li>
+			<li class="active"><a href="../blog.html">Blog</a></li>			
+			<div class="right">
+				<a id="mail-g" href="mailto:ariel.s.levy1gmail.com"><img src="../images/Mail_Logo_gray.png" alt="MAIL"></a>
+				<a id="github-g" href="https://github.com/askyel"><img src="../images/Github_Logo_gray.png" alt="GITHUB"></a>
+				<a id="link-g" href="http://linkedin.com/pub/ariel-levy/b6/906/917"><img src="../images/Linkedin_Logo_gray.png" alt="LINKEDIN"></a>
+				<a id="spotify-g" href="https://open.spotify.com/user/syke98"><img src="../images/Spotify_Logo_gray.png" alt="SPOTIFY"></a>
+			</div>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<h1>Blog</h1>
+		
+		<h3>Colorizer</h3>
+		
+		<h3>Mark</h3>
+		<p>Highlights all occurrences of a word in file. Can highlight multiple identifiers in parallel.</p>
+		<table>
+			<tr><th colspan="2">Commands</th></tr>
+			<tr><td>&lt;Leader&gt;m</td><td>marks word under the cursor</td></tr>
+			<tr><td>&lt;Leader&gt;n</td><td>clears mark under the cursor</td></tr>
+			<tr><td>:Mark</td><td>disables all marks; automatically re-enabled on mark addition/deletion/search</td></tr>
+			<tr><td>:MarkClear</td><td>clears all marks; cannot be undone</td></tr>
+			<tr><td>&lt;Leader&gt;*</td><td>jump to next occurrence of current mark</td></tr>
+			<tr><td>&lt;Leader&gt;/</td><td>jump to next occurrence of any mark</td></tr>
+			<tr><td>:MarkLoad</td><td>restore marks from previous session</td></tr>
+			<tr><td>:MarkSave</td><td>save currently defined marks</td></tr>
+		</table>
+
+		<h3>Syntastic</h3>
+		<p>Runs file through external syntax checker and displays resulting errors to user.</p>
+		vimrc Settings<br>
+		<code>
+			set statusline+=%#warningmsg#<br>
+			set statusline+=%{SyntasticStatuslineFlag()}<br>
+			set statusline+=%*<br>
+
+			let g:syntastic_always_populate_loc_list = 1<br>
+			let g:syntastic_auto_loc_list = 1<br>
+			let g:syntastic_check_on_open = 1<br>
+			let g:syntastic_check_on_wq = 0<br>
+		</code>
+	</div>
+
+</body>
