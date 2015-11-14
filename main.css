@@ -317,6 +317,14 @@ th, td {
 	padding: 5px;
 }
 
-th {
-	font-weight: bold;
+.code { 
+	background-color: #CCCCCC;
+	margin: 0px 0px 20px;
+	padding: 10px 40px 10px;
 }
+
+.title {
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+}	

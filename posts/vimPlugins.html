@@ -28,35 +28,61 @@
 	<div id="content">
 		<h1>Blog</h1>
 		
-		<h3>Colorizer</h3>
+		<h3>Pathogen</h3>
 		
+		<h3>Syntastic</h3>
+		<p>
+			Runs file through external syntax checker and displays resulting errors to user.
+			<a href="https://github.com/scrooloose/syntastic">https://github.com/scrooloose/syntastic</a>
+		</p>
+		<div class="title">vimrc Settings</div>
+		<div class="code"><code>
+			set statusline+=%#warningmsg#<br>
+			set statusline+=%{SyntasticStatuslineFlag()}<br>
+			set statusline+=%*<br>
+			<br>
+			let g:syntastic_always_populate_loc_list = 1<br>
+			let g:syntastic_auto_loc_list = 1<br>
+			let g:syntastic_check_on_open = 1<br>
+			let g:syntastic_check_on_wq = 0<br>
+		</code></div>
+		<table>
+			<tr><td colspan="2" class="title">Commands</td></tr>
+			<tr><td>:SyntasticInfo</td><td>see checkers available for current filetype</td></tr>
+			<tr><td>:SyntasticCheck</td><td>perform manual check</td></tr>
+			<tr><td>:Errors</td><td>display error window</td></tr>
+			<tr><td>:lclose</td><td>close error window</td></tr> 
+			<tr><td>:SyntasticReset</td><td>clear error list</td></tr>
+			<tr><td>:SyntasticToggleMode</td><td>switch between active (check on writing buffer) and passive (manual check) modes</td></tr>
+			<tr><td>:lnext</td><td>jump to next error</td></tr>
+			<tr><td>:lprevious</td><td>jump to previous error</td></tr>
+		</table>
+
+
+		<h3>Airline</h3>
+
+		<h3>Fugitive</h3>
+
+		<h3>NERD Tree</h3>
+				
 		<h3>Mark</h3>
 		<p>Highlights all occurrences of a word in file. Can highlight multiple identifiers in parallel.</p>
 		<table>
-			<tr><th colspan="2">Commands</th></tr>
-			<tr><td>&lt;Leader&gt;m</td><td>marks word under the cursor</td></tr>
-			<tr><td>&lt;Leader&gt;n</td><td>clears mark under the cursor</td></tr>
-			<tr><td>:Mark</td><td>disables all marks; automatically re-enabled on mark addition/deletion/search</td></tr>
-			<tr><td>:MarkClear</td><td>clears all marks; cannot be undone</td></tr>
+			<tr><th colspan="2" class="title">Commands</th></tr>
+			<tr><td>&lt;Leader&gt;m</td><td>mark word under the cursor</td></tr>
+			<tr><td>&lt;Leader&gt;n</td><td>clear mark under the cursor</td></tr>
+			<tr><td>:Mark</td><td>disable all marks; automatically re-enabled on mark addition/deletion/search</td></tr>
+			<tr><td>:MarkClear</td><td>clear all marks; cannot be undone</td></tr>
 			<tr><td>&lt;Leader&gt;*</td><td>jump to next occurrence of current mark</td></tr>
 			<tr><td>&lt;Leader&gt;/</td><td>jump to next occurrence of any mark</td></tr>
 			<tr><td>:MarkLoad</td><td>restore marks from previous session</td></tr>
 			<tr><td>:MarkSave</td><td>save currently defined marks</td></tr>
 		</table>
+		
+		<h3>Colorizer</h3>
 
-		<h3>Syntastic</h3>
-		<p>Runs file through external syntax checker and displays resulting errors to user.</p>
-		vimrc Settings<br>
-		<code>
-			set statusline+=%#warningmsg#<br>
-			set statusline+=%{SyntasticStatuslineFlag()}<br>
-			set statusline+=%*<br>
+		<h3>Vim Markdown</h3>
 
-			let g:syntastic_always_populate_loc_list = 1<br>
-			let g:syntastic_auto_loc_list = 1<br>
-			let g:syntastic_check_on_open = 1<br>
-			let g:syntastic_check_on_wq = 0<br>
-		</code>
 	</div>
 
 </body>
