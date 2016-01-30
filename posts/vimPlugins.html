@@ -26,11 +26,40 @@
 	</div>
 	
 	<div id="content">
-		<h1>Blog</h1>
+		<h1>Vim Plugins</h1>
 		
-		<h3>Pathogen</h3>
+		<p>
+			<a href="#pathogen">Pathogen</a> | 
+			<a href="#syntastic">Syntastic</a> |
+			<a href="#airline">Airline</a> | 
+			<a href="#fugitive">Fugitive</a> | 
+			<a href="#nerd">NERD Tree</a> | 
+			<a href="#mark">Mark</a> | 
+			<a href="#colorizer">Colorizer</a> 
+		</p>
 		
-		<h3>Syntastic</h3>
+		<h3 id="pathogen">Pathogen</h3>
+		<p>
+			Easily install and store plugins in subdirectory <code>~/.vim/bundle</code>.
+			<a href="https://github.com/tpope/vim-pathogen">https://github.com/tpope/vim-pathogen</a>
+		</p>
+		<div class="title">Installation</div>
+		<div class="code"><code>
+			$ mkdir -p ~/.vim/autoload ~/.vim/bundle  <br>
+			$ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+		</code></div>
+		<div class="title">vimrc Settings</div>
+		<div class="code"><code>
+			execute pathogen#infect()<br>
+			filetype plugin indent on
+		</code></div>
+		<div class="title">Install a Plugin</div>
+		<div class="code"><code>
+			$ cd ~/.vim/bundle <br>
+			$ git clone &lt;GIT_REPO_LINK&gt;
+		</code></div>
+
+		<h3 id="syntastic">Syntastic</h3>
 		<p>
 			Runs file through external syntax checker and displays resulting errors to user.
 			<a href="https://github.com/scrooloose/syntastic">https://github.com/scrooloose/syntastic</a>
@@ -58,15 +87,51 @@
 			<tr><td>:lprevious</td><td>jump to previous error</td></tr>
 		</table>
 
+		<h3 id="airline">Airline</h3>
+		<p>Useful status/tabline for vim with customization and powerline symbol configuration. <a href="https://github.com/bling/vim-airline">https://github.com/bling/vim-airline</a></p>
+		<div class="title">vimrc Settings</div>
+		<div class="code"><code>
+				let g:airline_powerline_fonts = 1<br>
+		</code></div>
+		<table>
+			<tr><td colspan="2" class="title">Commands</td></tr>
+			<tr><td>:AirlineTheme [theme-name]</td><td>display or change the current theme</td></tr>
+			<tr><td>:AirlineToggle</td><td>toggle between standard 'statusline' and airline</td></tr>
+		</table>
 
-		<h3>Airline</h3>
+		<h3 id="fugitive">Fugitive</h3>
+		<p>Advanced Git wrapper. <a href="https://github.com/tpope/vim-fugitive">https://github.com/tpope/vim-fugitive</a></p>
+		<table>
+			<tr><td colspan="2" class="title">Commands</td></tr>
+			<tr><td>:Git [args]</td><td>run arbitrary git command</td></tr>
+			<tr><td>:Git! [args]</td><td>run arbitrary git command; output captured in temp file</td></tr>
+			<tr><td>:Gstatus</td><td>
+					display git status in preview window
+					<table class="maps">
+						<tr><td>q</td><td>close status</td></tr>
+						<tr><td>r</td><td>reload status</td></tr>
+					</table>
+			</td></tr>
+			<tr><td>:Gcommit [args]</td><td>run git commit; split window opened to write commit message</td></tr>
+			<tr><td>:Gmerge [args]</td><td>call git merge</td></tr>
+			<tr><td>:Gpull [args]</td><td>call git pull</td></tr>
+			<tr><td>:Gpush [args]</td><td>call git push</td></tr>
+		</table>
 
-		<h3>Fugitive</h3>
-
-		<h3>NERD Tree</h3>
+		<h3 id="nerd">NERD Tree</h3>
+		<p>Explore and manipulate filesystem. <a href="https://github.com/scrooloose/nerdtree">https://github.com/scrooloose/nerdtree</a></p>
+		<table>
+			<tr><td colspan="2" class="title">Commands</td></tr>
+			<tr><td>:NERDTree [start-directory | bookmark]</td><td>open NERD tree from directory or bookmark</td></tr>
+			<tr><td>:NERDTreeClose</td><td>close NERD tree</td></tr>
+			<tr><td>:NERDTreeFind</td><td>find current file in tree</td></tr>
+			<tr><td>:NERDTreeCWD</td><td>change tree root to current directory</td></tr>
+			<tr><td>:Bookmark [name]</td><td>bookmark current node as name</td></tr>
+			<tr><td>o</td><td>open file, directory, or bookmark</td></tr>
+		</table>
 				
-		<h3>Mark</h3>
-		<p>Highlights all occurrences of a word in file. Can highlight multiple identifiers in parallel.</p>
+		<h3 id="mark">Mark</h3>
+		<p>Highlights all occurrences of a word in file. Can highlight multiple identifiers in parallel. <a href="https://github.com/vim-scripts/Mark--Karkat">https://github.com/vim-scripts/Mark--Karkat</a></p>
 		<table>
 			<tr><th colspan="2" class="title">Commands</th></tr>
 			<tr><td>&lt;Leader&gt;m</td><td>mark word under the cursor</td></tr>
@@ -79,9 +144,14 @@
 			<tr><td>:MarkSave</td><td>save currently defined marks</td></tr>
 		</table>
 		
-		<h3>Colorizer</h3>
-
-		<h3>Vim Markdown</h3>
+		<h3 id="colorizer">Colorizer</h3>
+		<p>Colorizes text in #rrggbb, #rgb, or rgba(R,G,B, %) format. <a href="https://github.com/lilydjwg/colorizer">https://github.com/lilydjwg/colorizer</a></p> 
+		<table>
+			<tr><th colspan="2" class="title">Commands</th></tr>
+			<tr><td>:ColorHighlight</td><td>start or update highlighting</td></tr>
+			<tr><td>:ColorClear</td><td>clear all highlighting</td></tr>
+			<tr><td>:ColorToggle</td><td>toggle highlighting</td></tr>
+		</table>
 
 	</div>
 

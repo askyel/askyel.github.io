@@ -104,7 +104,7 @@ html, body {
 }
 
 #content {
-	padding: 0px 15% 0px;
+	padding: 0px 15% 20px;
 }
 
 h1 {
@@ -323,8 +323,30 @@ th, td {
 	padding: 10px 40px 10px;
 }
 
+code {
+	background-color: #CCCCCC;
+	font-size: 15px;
+}	
+
 .title {
 	text-align: center;
 	width: 100%;
 	font-size: 15px;
 }	
+
+.maps {
+	border: none;
+	background-color: #FFFFFF;
+}
+
+#posts {
+	border: none;
+	background-color: white;
+	width: 50%;
+	margin: 0px 25% 0px;
+}
+
+#posts .date {
+   text-align: right;
+}   
+
