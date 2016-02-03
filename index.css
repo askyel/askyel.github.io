@@ -7,68 +7,39 @@ body {
 	background-size: cover;
 	background-image:
 	linear-gradient(
-		rgba(0, 0, 0, 0.25),
-		rgba(0, 0, 0, 0.25)
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
 	),
 	url("images/nyc4.jpg");
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 }
 
-#nav {
-	padding: 5px 50px 5px;
-	font-size: 16px;
-	text-transform: uppercase;
+h1 {
+	text-align: center;
+	margin: 140px auto 0px;
+	font-size: 90px;
+	font-family: "Great Vibes";
 }
 
-#nav ul {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
+h2 {
+	text-align: center;
+	margin: 25px auto 0px;
+	font-size: 20px;
 }
 
-#nav li {
-	display: inline;
-	padding: 0px 10px 0px;
-	vertical-align: middle;
-}
-
-#nav li a {
-	color: #CCCCCC;
-	text-decoration: none;
-}
-
-#nav li a:hover {
+a {
 	color: white;
 	text-decoration: none;
 }
 
-#nav img {
-	height: 16px;
-}
-
-.right {
-	margin: 0px;
-	padding: 0px;
-	float: right;
-}
-
-#nav .right img {
-	height: 20px;
-}
-
-h1 {
-	text-align: center;
-	margin: 70px auto 30px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 75px;
-	font-family: "Great Vibes";
+a:hover {
+	color: #CCCCCC;
 }
 
 .buttons {
-	width: 370px;
-	margin: 130px auto 0px;
+	width: 295px;
+	margin: 150px auto 0px;
 	padding: 0px;
 }
 
