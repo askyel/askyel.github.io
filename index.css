@@ -1,87 +1,85 @@
 body {
-	color: white;
-	font-family: "Quicksand", Arial, sans-serif;
-	padding: 0px 50px 0px;
-	
-	background: url("images/nyc4.jpg");
-	background-size: cover;
-	background-image:
-	linear-gradient(
-		rgba(0, 0, 0, 0.5),
-		rgba(0, 0, 0, 0.5)
-	),
-	url("images/nyc4.jpg");
-	background-repeat: repeat-x;
-	background-attachment: fixed;
+	margin: 40px auto;
+	max-width: 700px;
+	line-height: 1.6;
+	font-size: 18px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #444;
+	padding: 0 10px;
+	background-color: #FAFAFA;
+}
+
+img {
+	margin-top: 12px;
+}
+
+h1, h2 {
+	line-height: 1.2;
 }
 
 h1 {
-	text-align: center;
-	margin: 140px auto 0px;
-	font-size: 90px;
-	font-family: "Great Vibes";
+	font-size: 50px;
+	float: left;
 }
 
 h2 {
-	text-align: center;
-	margin: 25px auto 0px;
 	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
 }
 
-a {
-	color: white;
-	text-decoration: none;
+#heading {
+	width: 100%;
+	text-align: center;
 }
 
-a:hover {
-	color: #CCCCCC;
+#quals {
+	text-align: left;
+	margin: 0px auto 0px;
+	clear: both;
 }
 
-.buttons {
-	width: 295px;
-	margin: 150px auto 0px;
-	padding: 0px;
+#quals th {
+	color: #747;
 }
 
-.buttons a {
-	padding: 0px;
-	margin: 0px;
+#quals td {
+	padding-left: 20px;
 }
 
-.buttons img {
-	width: 50px;
-	margin: 0px;
-	padding: 10px 10px 10px;
+.artifact {
+	border: 5px #444 solid;
+	padding: 20px 50px 20px;
+	margin: 10px 0 20px;
+	font-size: 15px;
 }
 
-#home-w img:hover {
-	content: url('images/House_Logo_gray.png');
-}
-#mail-w img:hover {
-	content: url('images/Mail_Logo_gray.png');
-}
-#github-w img:hover {
-	content: url('images/Github_Logo_gray.png');
-}
-#link-w img:hover {
-	content: url('images/Linkedin_Logo_gray.png');
-}
-#spotify-w img:hover {
-	content: url('images/Spotify_Logo_gray.png');
+.object {
+	text-align: center;
 }
 
-#home-g img:hover {
-	content: url('images/House_Logo_white.png');
+.object img {
+	width: 100%;
 }
-#mail-g img:hover {
-	content: url('images/Mail_Logo_white.png');
+
+.object.quote {
+	background-color: #fff;
+	font-size: 18px;
+	padding: 20px;
+	margin-bottom: 10px;
+	font-style: italic;
+	width: 100% - 20px;
 }
-#github-g img:hover {
-	content: url('images/Github_Logo_white.png');
+
+.caption {
+	width: 80%;
+	margin: 0 10% 0;
 }
-#link-g img:hover {
-	content: url('images/Linkedin_Logo_white.png');
-}
-#spotify-g img:hover {
-	content: url('images/Spotify_Logo_white.png');
+
+.citation {
+	font-style: italic;
+	font-size: 12px;
+	width: 80%;
+	margin: 0 10% 0;
+	text-align: right;
 }
