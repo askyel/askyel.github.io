@@ -1,0 +1,3 @@
+[submodule "hiv-map"]
+	path = hiv-map
+	url = https://github.com/askyel/hiv-map.git
